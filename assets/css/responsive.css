@@ -1,0 +1,217 @@
+        /*
+        For Laptop Screen
+        */
+        
+        @media only screen and (max-width: 1199px) {}
+        /*
+        For Tab Screen
+        */
+        
+        @media only screen and (max-width: 991px) {
+            .banner .slider .banner-info h1,
+            h2,
+            h3 {
+                font-size: 28px;
+            }
+            /*
+            Banner section
+            */
+            .buttons {
+                margin-bottom: 120px;
+            }
+            /*
+            Our Team section
+            */
+            .team-block {
+                width: 21.9%;
+            }
+            .slick-prev {
+                left: 0px;
+            }
+            /*
+            Our Work section
+            */
+            .work-block {
+                max-width: 30.6%;
+            }
+            /*
+            Contact us section
+            */
+            .contact-right form {
+                margin-right: 20px;
+            }
+            input[type="text"],
+            textarea {
+                max-width: 300px;
+                width: 276px;
+            }
+        }
+        /*
+        For Mobile
+        */
+        
+        @media only screen and (max-width: 767px) {
+            .overlay {
+                background-color: rgb(0, 0, 0);
+                background-color: rgba(0, 0, 0, 0.9);
+                height: 100%;
+                left: 0;
+                overflow-x: hidden;
+                position: fixed;
+                transition: 0.5s;
+                top: 0;
+                width: 0;
+                z-index: 1;
+            }
+            .overlay-content {
+                margin-top: 30px;
+                position: relative;
+                text-align: center;
+                top: 15%;
+                width: 100%;
+            }
+            .overlay a {
+                color: #fff;
+                display: block;
+                font-size: 36px;
+                padding: 8px;
+                text-decoration: none;
+                transition: 0.3s;
+            }
+            .overlay a:hover,
+            .overlay a:focus {
+                color: #f1f1f1;
+            }
+            .overlay .closebtn {
+                font-size: 50px;
+                position: absolute;
+                right: -5px;
+                top: -15px;
+            }
+            .menu ul li {
+                display: block;
+                text-align: center;
+            }
+            .closebtn,
+            .open {
+                display: block;
+            }
+            .open {
+                color: #fff;
+                position: absolute;
+                right: 10px;
+            }
+            @media screen and (max-height: 450px) {
+                .overlay a {
+                    font-size: 20px
+                }
+                .overlay .closebtn {
+                    font-size: 40px;
+                    right: 35px;
+                    top: 15px;
+                }
+            }
+            .about-left,
+            .about-right,
+            .team-block,
+            .work-block,
+            .services ul li,
+            .feature-block,
+            .contact-left,
+            .contact-right,
+            .logo img,
+            .about-blog img {
+                margin: 0;
+                max-width: 100%;
+                width: 100%;
+            }
+            /*
+                banner
+            */
+            .detail-banner h1 {
+                font-size: 25px;
+            }
+            .banner-info .buttons a {
+                padding: 10px;
+            }
+            /*
+                about section
+            */
+            .social-icons li a {
+                width: 50px;
+            }
+            .about-right {
+                padding-top: 60px;
+            }
+            .right-cel {
+                padding-left: 20px;
+            }
+            /* 
+                Team Section
+             */
+            .team-block:nth-child(n) {
+                margin: 10px 0;
+            }
+            .slick-prev {
+                left: 0px;
+            }
+            /*
+                Work  Section Start Here
+            */
+            .work-block:nth-child(n) {
+                margin: 10px 0;
+            }
+            .row .work-block:nth-child(n) {
+                margin: 10px 0;
+            }
+            /*
+                services
+            */
+            .services ul li:nth-child(n) {
+                padding: 0 15px;
+            }
+            .mt-90 {
+                margin-top: 40px;
+            }
+            /*
+                features section start
+            */
+            .feature-block:nth-child(n) {
+                padding: 10px 0;
+            }
+            /*
+                contact us section start here
+            */
+            .contact-right {
+                height: 350px;
+                padding: 0;
+            }
+            .contact-left {
+                padding-bottom: 130px;
+            }
+            .contact-right form {
+                padding: 8px;
+                width: 290px;
+            }
+            .contact-right .email {
+                margin-left: 0;
+            }
+            /*
+                footer
+            */
+            .copy-right {
+                text-align: center;
+            }
+            .ft-social-icons {
+                width: 70%;
+            }
+            /*
+            detail page
+            */
+            .pl-30 {
+                padding-left: 0px;
+            }
+        }
+        /*
+            For Mobile End 
+        */
